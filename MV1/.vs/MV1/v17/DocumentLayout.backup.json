@@ -42,8 +42,7 @@
               "RelativeToolTip": "MV1\\Views\\Home\\Yzu.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T05:37:50.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T05:37:50.314Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "MV1\\Views\\Home\\Mcu.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T05:29:10.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T05:29:10.668Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "MV1\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAqwB4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T05:20:24.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T05:20:24.477Z"
             },
             {
               "$type": "Document",
@@ -81,8 +78,7 @@
               "RelativeToolTip": "MV1\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T05:16:25.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T05:16:25.614Z"
             },
             {
               "$type": "Document",
@@ -90,8 +86,8 @@
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\\u684C\u9762\\MVN NET\\MV1\\MV1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MV1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\\u684C\u9762\\MVN NET\\MV1\\MV1\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "MV1\\Views\\Shared\\_Layout.cshtml*",
+              "ToolTip": "D:\\\u684C\u9762\\MVN NET\\MV1\\MV1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MV1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-24T05:14:53.36Z",

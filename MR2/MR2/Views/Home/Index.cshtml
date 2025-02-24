@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.place = "美滿徵婚社";
+    string[] person = { "林志零", "田富珍", "劉若鷹" };
+    var weektime = DateTime.Now.DayOfWeek;
+    var WT = weektime.ToString();
+    var daytime = DateTime.Now.Day;
+    var DT = daytime.ToString();   
+    var monthtiome = DateTime.Now.Month;
+    var MT = monthtiome.ToString();
+    var yearTime = DateTime.Now.Year;
+    var YT = yearTime.ToString();
+    var time = DateTime.Now;
+    switch (WT)
+    {
+        case "Monday":
+            WT = "星期一";
+            break;
+        case "Tuesday":
+            WT = "星期二";
+            break;
+        case "Wednesday":
+            WT = "星期三";
+            break;
+        case "Thursday":
+            WT = "星期四";
+            break;
+        case "Friday":  
+            WT = "星期五";
+            break;
+        case "Saturday":
+            WT = "星期六";
+            break;
+        case "Sunday":
+            WT = "星期日";
+            break;
+        default: WT = "??";
+            break;
+    }
+}
+@for(var i = 0; i < 3; i++)
+{
+    <h1>歡迎光臨<span>@ViewBag.place</span></h1>
+}
+@{
+    int Count = 5;
+}
+<partial name="Welcome.cshtml" model="@Count" />
+<h3>現在是<span>@YT</span>年<span>@MT</span>月<span>@DT</span>號<span>@WT</span><span>@time</span></h3>
+@{
+    var msg = "  ";
+    var hourtime = DateTime.Now.Hour;
+    if (hourtime < 12)
+    {
+        msg = "早安";
+    }
+    else if (hourtime < 18)
+    {
+        msg = "午安";
+    }
+    else
+    {
+        msg = "晚安";
+    }
+}
+<h3>您好，<span>@msg</span></h3>
+<h3>以下女士急徵對象</h3>
+<ul>
+    @foreach(var x in person)
+    {
+        <li>@x</li>
+    }
+</ul>
