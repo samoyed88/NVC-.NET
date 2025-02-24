@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MV1</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h5>一日金光黨、一世金光黨</h5>
+    <h3>
+        <a asp-controller="Home" asp-action="Index">總部</a>
+        <a style="color:red" asp-controller="Home" asp-action="Mcu">銘傳分部</a>
+        <a asp-controller="Home" asp-action="Yzu">元智分部</a>
+    </h3>
+
+    @RenderBody()
+    <h5>金光黨版權所有</h5>
+</body>
+</html>
